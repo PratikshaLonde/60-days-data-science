@@ -1,0 +1,4 @@
+Income,Credit_Score,Loan_Amount,Employment_Years,Actual,Predicted
+35000,620,200000,3,0,0
+70000,750,150000,7,1,1
+50000,680,180000,4,1,1

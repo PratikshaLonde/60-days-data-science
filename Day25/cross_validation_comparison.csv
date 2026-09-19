@@ -1,0 +1,4 @@
+Model,Train-Test Accuracy,Mean CV Accuracy,CV Standard Deviation
+Logistic Regression,0.92,0.92,0.002
+Decision Tree,0.871,0.877,0.003
+Random Forest,0.913,0.914,0.002

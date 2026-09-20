@@ -1,0 +1,3 @@
+Model,Test Accuracy
+Random Forest - Untuned,0.913
+Random Forest - Tuned,0.92

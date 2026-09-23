@@ -1,0 +1,3 @@
+cluster,customer_count,total_sales,total_quantity,total_profit,average_discount,average_shipping_days,number_of_orders
+0,338,20109.22,267.53,2616.06,0.14,3.95,75.81
+1,457,12792.09,192.31,1279.66,0.15,3.99,56.16

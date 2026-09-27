@@ -1,0 +1,3 @@
+behavior_status,total_sales,total_quantity,total_profit,average_discount,average_shipping_days,number_of_orders
+Anomalous,21846.32,242.62,2349.88,0.16,4.08,67.78
+Normal,15588.15,223.32,1821.24,0.14,3.96,64.34

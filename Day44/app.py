@@ -131,30 +131,35 @@ if missing_columns:
 # LOAD SEGMENT DATA
 # --------------------------------------------------
 
-segment_file = "../Day30/customer_segments_final.csv"
+from pathlib import Path
+
+segment_file = (
+    Path(__file__).resolve().parent.parent
+    / "Day30"
+    / "customer_segments_final.csv"
+)
 
 try:
-
     segment_data = pd.read_csv(segment_file)
-
 except FileNotFoundError:
-
     segment_data = pd.DataFrame()
-
+    st.warning("Customer segmentation file not found.")
 
 # --------------------------------------------------
 # LOAD CHURN-RISK DATA
 # --------------------------------------------------
 
-risk_file = "../Day41/customer_risk_ranking.csv"
+risk_file = (
+    Path(__file__).resolve().parent.parent
+    / "Day41"
+    / "customer_risk_ranking.csv"
+)
 
 try:
-
     risk_data = pd.read_csv(risk_file)
-
 except FileNotFoundError:
-
     risk_data = pd.DataFrame()
+    st.warning("Customer risk file not found.")
 
 
 # --------------------------------------------------

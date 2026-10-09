@@ -75,15 +75,13 @@ uploaded_file = st.sidebar.file_uploader(
 # --------------------------------------------------
 
 if uploaded_file is not None:
-
     df = pd.read_csv(uploaded_file)
-
     st.sidebar.success("Uploaded CSV loaded successfully!")
-
 else:
+    from pathlib import Path
 
-    df = pd.read_csv("../cleaned_dataset.csv")
-
+    DATA_PATH = Path(__file__).resolve().parent.parent / "cleaned_dataset.csv"
+    df = pd.read_csv(DATA_PATH)
     st.sidebar.info("Using project customer dataset.")
 
 

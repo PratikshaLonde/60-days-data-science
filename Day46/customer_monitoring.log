@@ -1,0 +1,26 @@
+2026-10-10 08:56:24,039 - INFO - Customer Intelligence monitoring started
+2026-10-10 08:57:19,928 - INFO - Customer Intelligence monitoring started
+2026-10-10 08:57:19,941 - INFO - Dataset validated successfully: 3 rows
+2026-10-10 08:57:19,941 - INFO - Monitoring summary: rows=3, columns=2
+2026-10-10 08:57:19,945 - ERROR - Missing values found in Sales or Profit
+2026-10-10 08:58:24,528 - INFO - Customer Intelligence monitoring started.
+2026-10-10 08:58:24,529 - INFO - Loading dataset: C:\Users\arjun\OneDrive\Desktop\ABTalks\cleaned_dataset.csv
+2026-10-10 08:58:24,888 - INFO - Request started | ID: 20261010085824888875 | Name: Customer dataset validation
+2026-10-10 08:58:24,889 - ERROR - Missing required columns: ['Sales', 'Profit']
+2026-10-10 08:58:24,889 - ERROR - Request failed validation | ID: 20261010085824888875
+2026-10-10 09:00:28,010 - INFO - Customer Intelligence monitoring started.
+2026-10-10 09:00:28,011 - INFO - Loading dataset: C:\Users\arjun\OneDrive\Desktop\ABTalks\cleaned_dataset.csv
+2026-10-10 09:00:28,357 - INFO - Request started | ID: 20261010090028357130 | Name: Customer dataset validation
+2026-10-10 09:00:28,358 - INFO - Dataset validation successful. Rows: 51290
+2026-10-10 09:00:28,358 - INFO - Monitoring summary | Rows: 51290 | Columns: 23
+2026-10-10 09:00:28,359 - INFO - Total sales: 12642905.00
+2026-10-10 09:00:28,359 - INFO - Total profit: 1469034.82
+2026-10-10 09:00:28,359 - INFO - Request completed successfully | ID: 20261010090028357130
+2026-10-10 09:02:46,311 - INFO - Customer Intelligence monitoring started.
+2026-10-10 09:02:46,312 - INFO - Loading dataset: C:\Users\arjun\OneDrive\Desktop\ABTalks\cleaned_dataset.csv
+2026-10-10 09:02:46,649 - INFO - Request started | ID: 20261010090246649325 | Name: Customer dataset validation
+2026-10-10 09:02:46,650 - INFO - Dataset validation successful. Rows: 51290
+2026-10-10 09:02:46,650 - INFO - Monitoring summary | Rows: 51290 | Columns: 23
+2026-10-10 09:02:46,651 - INFO - Total sales: 12642905.00
+2026-10-10 09:02:46,651 - INFO - Total profit: 1469034.82
+2026-10-10 09:02:46,651 - INFO - Request completed successfully | ID: 20261010090246649325

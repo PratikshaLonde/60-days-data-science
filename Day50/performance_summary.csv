@@ -1,0 +1,7 @@
+Metric,Value
+Baseline Accuracy (%),87.65841294599338
+Optimized Accuracy (%),91.8892571651394
+Accuracy Improvement (percentage points),4.230844219146035
+Training Accuracy (%),92.12565802300642
+Testing Accuracy (%),91.8892571651394
+Accuracy Gap (percentage points),0.23640085786702514
